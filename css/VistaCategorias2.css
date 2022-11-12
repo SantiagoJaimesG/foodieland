@@ -1,0 +1,379 @@
+*{
+	margin: 0;
+}
+
+.contenedor{
+	font-family: Century Gothic;
+}
+
+.contenedor .padre1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.contenedor .padre1 a{
+	text-decoration: none;
+	color: black;
+}
+
+.contenedor .padre1 .hijo1{
+	display: flex;
+	gap: 260px;
+}
+
+.contenedor .padre1 .menu ul{
+	display: flex;
+	justify-content: center;
+	gap:30px;
+	align-items: center;
+	list-style: none;
+}
+
+.contenedor .padre1 .menu ul a:hover {
+  color: #ff7426;
+}
+
+.contenedor .padre1 .hijo2 .face,
+.contenedor .padre1 .hijo2 .twitter,
+.contenedor .padre1 .hijo2 .insta{
+    transition: transform .2s; 
+}
+ 
+.contenedor .padre1 .hijo2 .face:hover,
+.contenedor .padre1 .hijo2 .twitter:hover,
+.contenedor .padre1 .hijo2 .insta:hover {
+    transform: scale(1.2); 
+}
+
+.contenedor .padre1 .hijo2{
+	display: flex;
+	gap: 40px;
+}
+
+.contenedor .padre1 .hijo2 .twitter{
+	padding-top: 2px;
+}
+
+.contenedor .padre1 .menudes,
+.contenedor .desplegable{
+	display: none;
+}
+
+.contenedor .desplegable{
+	position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.contenedor .desplegable .x{
+	margin-top: -45px;
+    margin-left: 90%;
+    margin-bottom: 40px;
+    width: 30px;
+}
+
+.contenedor .desplegable .x img{
+	width: 100%;
+}
+
+.contenedor .desplegable .menu ul{
+	list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.contenedor .desplegable .menu ul li{
+	padding-bottom: 10px;
+}
+
+.contenedor .desplegable .menu ul li a{
+	text-decoration: none;
+    color: black;
+}
+
+.contenedor .desplegable .hijo2{
+	display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.contenedor .padre2{
+	text-align: center;
+	align-items: center;
+	padding-top: 10%;
+	position: relative;
+}
+
+.contenedor .padre2 .title{
+	padding-bottom: 5%;
+}
+
+.contenedor .padre2 .producto .descripcion,
+.contenedor .padre2 .producto .comprar,
+.contenedor .popup ,
+.contenedor .padre2 button,
+.contenedor .oculto{
+	display: none;
+}
+
+.contenedor .padre2 .producto{
+	width: 300px;
+	border-radius: 10px;
+	border:1px solid black;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.contenedor .popup{
+	position: absolute;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.contenedor .popup h3{
+	font-size: 50px;
+}
+
+.contenedor .popup img{
+	width: 300px;
+    border-radius: 10px;
+}
+
+.contenedor .popup .descripcion p{
+	font-size: 20px;
+}
+
+.contenedor .popup h2{
+	font-size: 45px;
+}
+
+.contenedor .popup button{
+	font-size: 45px;
+	background-color: #ff8d56;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 10px;
+    width: 115px;
+}
+
+.contenedor .popup .comprar{
+	display: flex;
+    gap: 8px;
+    background-color: green;
+    width: 10%;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.contenedor .popup .comprar .img img{
+	width: 30px;
+}
+
+.contenedor .popup .comprar a{
+	margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor .productos{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.contenedor .productos .producto{
+	width: 16%;
+	text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    background-color: #efefef73;
+    padding: 30px 5px 30px 5px;
+
+}
+.contenedor .productos .producto img{
+	width: 135px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.contenedor .padre3 .arriba{
+	display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.contenedor .padre3 .arriba .izq{
+	margin-left: 20px;
+}
+
+.contenedor .padre3 .arriba .menu{
+	margin-right: 20px;
+}
+
+.contenedor .padre3 .arriba .menu ul{
+	display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.contenedor .padre3 .arriba .menu a{
+	text-decoration: none;
+	color: black;
+}
+
+.contenedor .padre3 .derechos{
+	text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contenedor .padre3 .arriba .menu a:hover {
+  color: #ff7426;
+}
+
+.oculto{
+	margin-top: 43%;
+}
+
+.contenedor .oculto .arriba{
+	display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.contenedor .oculto .arriba .izq{
+	margin-left: 20px;
+}
+
+.contenedor .oculto .arriba .menu{
+	margin-right: 20px;
+}
+
+.contenedor .oculto .arriba .menu ul{
+	display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.contenedor .oculto .arriba .menu a{
+	text-decoration: none;
+	color: black;
+}
+
+.contenedor .oculto .derechos{
+	text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contenedor .oculto .arriba .menu a:hover {
+  color: #ff7426;
+}
+
+@media only screen and (max-width: 400px) {
+
+.contenedor .padre1 .menu ul,
+.contenedor .padre1 .hijo2{
+	display: none;
+}
+
+.contenedor .padre1 .hijo1{
+	gap: 200px;
+}
+
+.contenedor .padre1 .menudes{
+	display: block;
+	width: 20px;
+}
+
+.contenedor .padre1 .menudes img{
+	width: 100%;
+}
+
+.contenedor .productos .producto{
+	width: 55%;
+}
+
+.contenedor .popup{
+    top: 80px;
+}
+
+.contenedor .popup h3{
+	font-size: 40px;
+}
+
+.contenedor .popup .comprar{
+    width: 30%;
+}
+
+.contenedor .padre3 .arriba{
+	display: block;
+}
+
+.contenedor .padre3 .arriba .izq{
+	margin-left: 0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contenedor .padre3 .arriba .menu{
+	margin-right: 0px;
+}
+
+.contenedor .padre3 .arriba .menu ul{
+	display: block;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.contenedor .padre3 .arriba .menu ul li{
+	margin-bottom: 10px;
+}
+
+.oculto{
+	margin-top: 190%;
+}
+
+.contenedor .oculto .arriba{
+	display: block;
+}
+
+.contenedor .oculto .arriba .izq{
+	margin-left: 0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contenedor .oculto .arriba .menu{
+	margin-right: 0px;
+}
+
+.contenedor .oculto .arriba .menu ul{
+	display: block;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.contenedor .oculto .arriba .menu ul li{
+	margin-bottom: 10px;
+}
+
+
+}

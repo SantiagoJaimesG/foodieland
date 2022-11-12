@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contactanos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/VistaContacto1.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="contenedor">
+	<div class="padre1">
+		<div class="hijo1"> 
+			<div class="logo"><img src="img\foodieland.png"></div>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contacto.html">Contactanos</a></li>
+					<li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="hijo2">
+			<div class="face"><a href="https://www.facebook.com/salchipapaaaaaa/"><img src="img/fb.png"></a></div>
+			<div class="twitter"><a href="https://twitter.com/Santiagoooooo17"><img src="img/twt.png"></a></div>
+			<div class="insta"><a href="https://www.instagram.com/jaimes.santiago/"><img src="img/ig.png"></a></div>
+		</div>
+		<div class="menudes"><img src="img/menu.png"></div>
+	</div>
+	<hr>
+	<div class="desplegable">
+		<div class="x"><img src="img/x.png"></div>
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contacto.html">Contactanos</a></li>
+				<li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+			</ul>
+		</div>
+		<div class="hijo2">
+			<div class="face"><a href="https://www.facebook.com/salchipapaaaaaa/"><img src="img/fb.png"></a></div>
+			<div class="twitter"><a href="https://twitter.com/Santiagoooooo17"><img src="img/twt.png"></a></div>
+			<div class="insta"><a href="https://www.instagram.com/jaimes.santiago/"><img src="img/ig.png"></a></div>
+		</div>
+	</div>
+	<div class="padre2">
+		<div class="foto">
+			<img src="img/chef.png">
+		</div>
+		<div class="formulario">
+			<div class="title"><h1></h1></div>
+			<div class="form">
+				<form action="insertarContacto.php" method="POST">
+					<label for="cod_contacto">Numero de celular</label>
+					<input type="text" name="cod_contacto"><br><br>
+					<label for="nombre">Nombre</label>
+					<input type="text" name="nombre"><br><br>
+					<label for="email">Email</label>
+					<input type="text" name="email"><br><br>
+					<label for="mensaje">Mensaje</label>
+					<input type="text" name="mensaje" class="mensaje"><br><br>
+					<input type="submit" name="submit" value="Enviar" class="enviar">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="padre3">
+		<div class="arriba">
+			<div class="izq">
+				<div class="logo"><img src="img/foodieland.png"></div>
+				<div class="text">La mejor pasteleria de la ciudad</div>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contacto.html">Contactanos</a></li>
+					<li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<div class="derechos"><p>© 2022 Copyright. Powered by Santiago Jaimes</p></div>
+	</div>
+</div>
+
+<script>
+	$(".contenedor .padre1 .menudes").click(function(){
+		$(".desplegable").fadeIn();
+	});
+
+	$(".contenedor .desplegable .x").click(function(){
+		$(".desplegable").fadeOut();
+	});
+</script>
+</body>
+</html>

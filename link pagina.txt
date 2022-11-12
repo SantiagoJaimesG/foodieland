@@ -1,0 +1,23 @@
+https://foodielandsan01.000webhostapp.com/
+
+dentro de la pagina, en la ventana "Home", al dale click al logo de la pagina,
+lo redirige al CRUD de los productos.
+
+
+
+Un problema que hay, es que en la pagina que está en el servidor, al momento de
+tratar de entrar al CRUD, tiene un problema de conexion que espera un valor
+booleano en mysqli, pero las conexiones están bien.
+
+si se abre el proyecto en el localhost de xammp (Ampps en mi caso), funciona al 100%.
+
+traté de solucionar el problema del servidor pero no le hallo 
+
+
+
+https://foodielandsan03.000webhostapp.com/
+
+en esa se muestra el crud de primero, pero sigue habiendo el problema,
+al menos muestra los productos que habia antes, intente solucionalo,
+para entrar a la pagina que ve el usuario, se le da click en el logo
+de la pagina al principio

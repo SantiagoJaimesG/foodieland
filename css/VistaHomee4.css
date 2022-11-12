@@ -1,0 +1,736 @@
+*{
+	margin: 0;
+}
+
+.contenedor{
+	font-family: Century Gothic;
+}
+
+.contenedor .padre1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.contenedor .padre1 a{
+	text-decoration: none;
+	color: black;
+}
+
+.contenedor .padre1 .hijo1{
+	display: flex;
+	gap: 260px;
+}
+
+.contenedor .padre1 .menu ul{
+	display: flex;
+	justify-content: center;
+	gap:30px;
+	align-items: center;
+	list-style: none;
+}
+
+.contenedor .padre1 .menu ul a:hover {
+  color: #ff7426;
+}
+
+.contenedor .padre1 .hijo2 .face,
+.contenedor .padre1 .hijo2 .twitter,
+.contenedor .padre1 .hijo2 .insta{
+    transition: transform .2s; 
+}
+ 
+.contenedor .padre1 .hijo2 .face:hover,
+.contenedor .padre1 .hijo2 .twitter:hover,
+.contenedor .padre1 .hijo2 .insta:hover {
+    transform: scale(1.2); 
+}
+
+.contenedor .padre1 .hijo2{
+	display: flex;
+	gap: 40px;
+}
+
+.contenedor .padre1 .hijo2 .twitter{
+	padding-top: 2px;
+}
+
+.contenedor .padre1 .menudes,
+.contenedor .desplegable{
+	display: none;
+}
+
+.contenedor .desplegable{
+	position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.contenedor .desplegable .x{
+	margin-top: -45px;
+    margin-left: 90%;
+    margin-bottom: 40px;
+    width: 30px;
+}
+
+.contenedor .desplegable .x img{
+	width: 100%;
+}
+
+.contenedor .desplegable .menu ul{
+	list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.contenedor .desplegable .menu ul li{
+	padding-bottom: 10px;
+}
+
+.contenedor .desplegable .menu ul li a{
+	text-decoration: none;
+    color: black;
+}
+
+.contenedor .desplegable .hijo2{
+	display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.contenedor .padre2{
+	width: 1309px;
+	height: auto;
+	margin: 50px auto 0;
+	overflow: hidden;
+}
+
+.contenedor .padre2 ul{
+	display: flex;
+	width: 400%;
+	padding: 0;
+	animation: slide 40s infinite alternate ease-in-out;
+}
+
+.contenedor .padre2 ul li{
+	list-style: none;
+	width: 100%;
+}
+
+.contenedor .padre2 ul li .medio{
+	display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@keyframes slide{
+	0% {margin-left: 0%;}
+	20% {margin-left: 0%;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.contenedor .padre2 .medio .izq{
+	width: 40%;
+	border-radius: 30px 0px 0px 30px;
+}
+
+.contenedor .padre2 .medio #cho{
+	background-color: #E7FAFE;
+}
+
+.contenedor .padre2 .medio #cup{
+	background-color: #fee7fb;
+}
+
+.contenedor .padre2 .medio #dulce{
+	background-color: #f1fdc2;
+}
+
+.contenedor .padre2 .medio #correo{
+	background-color: #ffd7d7;
+}
+
+.contenedor .padre2 .medio .der{
+	width: 40%;
+}
+
+.contenedor .padre2 .medio .der img{
+	width: 100%;
+	height: 100%;
+	border-radius: 0px 30px 30px 0px;
+}
+
+.contenedor .padre2 .medio .izq .comprar{
+	background-color: black;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 70%;
+}
+
+.contenedor .padre2 .medio .izq .comprar a{
+	text-decoration: none;
+    color: white;
+}
+
+.contenedor .padre2 .medio .izq .title{
+	font-size: 23px;
+    width: 92%;
+}
+
+.contenedor .padre2 .medio .izq .title h1{
+	margin-left: 8%;
+}
+
+.contenedor .padre2 .medio .izq .text{
+	width: 85%;
+    padding-top: 20px;
+}
+
+.contenedor .padre2 .medio .izq .text p{
+	margin-left: 10%;
+}
+
+.contenedor .padre2 .medio .izq .uno .text1{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.contenedor .padre2 .medio .izq .uno{
+	display: flex;
+	padding-left: 7%;
+    padding-top: 10%;
+}
+
+.contenedor .padre2 .medio .izq .uno .number{
+	width: 9%;
+}
+
+.contenedor .padre2 .medio .izq .uno .number img{
+	width: 100%;
+}
+
+.contenedor .padre2 .medio .izq .comprar{
+    transition: transform .2s; 
+}
+ 
+.contenedor .padre2 .medio .izq .comprar:hover{
+    transform: scale(1.2); 
+}
+
+.contenedor .padre3{
+	padding-top: 7%;
+}
+
+.contenedor .padre3 .title1{
+	margin-left: 41%;
+	margin-right: 41%;
+	font-size: 23px;
+	padding-bottom: 3%;
+}
+
+.contenedor .padre3 .categorias{
+	display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor .padre3 .categorias a{
+	text-decoration: none;
+    color: black;
+}
+
+.contenedor .padre3 .categorias .tortas{
+	background-color: #feffaf;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contenedor .padre3 .categorias .postres{
+	background-color: #bdffe0;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contenedor .padre3 .categorias .galletas{
+	background-color: #efe4d1;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contenedor .padre3 .categorias .dulces{
+	background-color: #efd1d1;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contenedor .padre3 .categorias .hover{
+    transition: transform .2s; 
+}
+ 
+.contenedor .padre3 .categorias .hover:hover{
+    transform: scale(1.2); 
+}
+
+.contenedor .padre4{
+	text-align: center;
+	align-items: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	position: relative;
+}
+
+.contenedor .padre4 .title{
+	padding-bottom: 5%;
+}
+
+.contenedor .padre4 .producto .descripcion,
+.contenedor .padre4 .producto .comprar,
+.contenedor .popup ,
+.contenedor .padre4 button,
+.contenedor .oculto{
+	display: none;
+}
+
+.contenedor .padre4 .producto{
+	width: 300px;
+	border-radius: 10px;
+	border:1px solid black;
+	text-align: center;
+}
+
+.contenedor .popup{
+	position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.contenedor .popup h3{
+	font-size: 50px;
+}
+
+.contenedor .popup img{
+	width: 300px;
+    border-radius: 10px;
+}
+
+.contenedor .popup .descripcion p{
+	font-size: 20px;
+}
+
+.contenedor .popup h2{
+	font-size: 45px;
+}
+
+.contenedor .popup button{
+	font-size: 45px;
+	background-color: #ff8d56;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+    padding: 10px;
+    width: 115px;
+}
+
+.contenedor .popup .comprar{
+	display: flex;
+    gap: 8px;
+    background-color: green;
+    width: 10%;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.contenedor .popup .comprar .img img{
+	width: 30px;
+}
+
+.contenedor .popup .comprar a{
+	margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor .padre4 .productos{
+	display: flex;
+	justify-content: space-around;
+}
+
+.contenedor .padre4 .productos .producto{
+	width: 16%;
+	text-decoration: none;
+    color: black;
+    border-radius: 15px;
+    background-color: #efefef73;
+    padding: 30px 5px 30px 5px;
+
+}
+.contenedor .padre4 .productos .producto img{
+	width: 135px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.contenedor .padre5{
+	padding-top: 10%;
+}
+
+
+.contenedor .padre5 .medio{
+	display: flex;
+    background-color: #d1ffd9;
+}
+
+.contenedor .padre5 .medio .izq{
+	width: 40%;
+}
+
+.contenedor .padre5 .medio .izq img{
+	width: 50%;
+    margin: 5% 15% 5% 15%;
+}
+
+.contenedor .padre5 .medio .der{
+	width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenedor .padre5 .medio .der .conocer{
+	background-color: black;
+    width: 18%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+
+.contenedor .padre5 .medio .der .conocer a{
+	text-decoration: none;
+    color: white;
+}
+
+.contenedor .padre5 .medio .der .conocer:hover{
+    transform: scale(1.2); 
+}
+
+.contenedor .padre6 .arriba{
+	display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.contenedor .padre6 .arriba .izq{
+	margin-left: 20px;
+}
+
+.contenedor .padre6 .arriba .menu{
+	margin-right: 20px;
+}
+
+.contenedor .padre6 .arriba .menu ul{
+	display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.contenedor .padre6 .arriba .menu a{
+	text-decoration: none;
+	color: black;
+}
+
+.contenedor .padre6 .derechos{
+	text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contenedor .padre6 .arriba .menu a:hover {
+  color: #ff7426;
+}
+
+.oculto{
+	margin-top: 30%;
+}
+
+.contenedor .oculto .arriba{
+	display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.contenedor .oculto .arriba .izq{
+	margin-left: 20px;
+}
+
+.contenedor .oculto .arriba .menu{
+	margin-right: 20px;
+}
+
+.contenedor .oculto .arriba .menu ul{
+	display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.contenedor .oculto .arriba .menu a{
+	text-decoration: none;
+	color: black;
+}
+
+.contenedor .oculto .derechos{
+	text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contenedor .oculto .arriba .menu a:hover {
+  color: #ff7426;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+.contenedor .padre1 .menu ul,
+.contenedor .padre1 .hijo2{
+	display: none;
+}
+
+.contenedor .padre1 .hijo1{
+	gap: 200px;
+}
+
+.contenedor .padre1 .menudes{
+	display: block;
+	width: 20px;
+}
+
+.contenedor .padre1 .menudes img{
+	width: 100%;
+}
+
+.contenedor .padre2{
+	width: 345px;
+}
+
+.contenedor .padre2 ul li .medio{
+	display: block;
+    width: 250%;
+}
+
+.contenedor .padre2 .medio .izq{
+	width: 40%;
+	border-radius: 30px 30px 0px 0px;
+	height: 280px;
+}
+
+.contenedor .padre2 .medio .der{
+	width: 40%;
+}
+
+.contenedor .padre2 .medio .der img{
+	width: 100%;
+	height: 260px;
+	border-radius: 0px 0px 30px 30px;
+}
+
+.contenedor .padre2 .medio .izq .comprar{
+    width: 22%;
+    margin-left: 60%;
+}
+
+.contenedor .padre2 .medio .izq .title,
+.contenedor .padre2 .medio .izq .uno .text1{
+	font-size: 12px;
+}
+
+.contenedor .padre3{
+	padding-top: 15%;
+}
+
+.contenedor .padre3 .title1{
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 6%;
+}
+
+.contenedor .padre3 .categorias{
+	display: block;
+}
+
+.contenedor .padre3 .categorias .tortas{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.contenedor .padre3 .categorias .postres{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.contenedor .padre3 .categorias .galletas{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.contenedor .padre3 .categorias .dulces{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.contenedor .padre4{
+	text-align: center;
+	align-items: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	position: relative;
+}
+
+.contenedor .padre4 .title{
+	font-size: 13px;
+	padding-top: 15%;
+}
+
+.contenedor .popup{
+    top: 80px;
+}
+
+.contenedor .popup h3{
+	font-size: 40px;
+}
+
+.contenedor .popup .comprar{
+    width: 30%;
+}
+
+.contenedor .padre4 .productos{
+	display: block;
+	margin-left: 20%;
+}
+
+.contenedor .padre4 .productos .producto{
+	width: 70%;
+	margin-bottom: 10%;
+
+}
+.contenedor .padre4 .productos .producto img{
+	width: 135px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.contenedor .padre5 .medio{
+	display: block;
+}
+
+.contenedor .padre5 .medio .izq{
+	width: 70%;
+}
+
+.contenedor .padre5 .medio .izq img{
+    margin: 15% 46% 15% 46%;
+}
+
+.contenedor .padre5 .medio .der{
+	width: 90%;
+	text-align: center;
+	margin-left: 5%;
+	padding-bottom: 10%;
+}
+
+.contenedor .padre5 .medio .der .conocer{
+    width: 23%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor .padre6 .arriba{
+	display: block;
+}
+
+.contenedor .padre6 .arriba .izq{
+	margin-left: 0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contenedor .padre6 .arriba .menu{
+	margin-right: 0px;
+}
+
+.contenedor .padre6 .arriba .menu ul{
+	display: block;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.contenedor .padre6 .arriba .menu ul li{
+	margin-bottom: 10px;
+}
+
+.oculto{
+	margin-top: 110%;
+}
+
+.contenedor .oculto .arriba{
+	display: block;
+}
+
+.contenedor .oculto .arriba .izq{
+	margin-left: 0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.contenedor .oculto .arriba .menu{
+	margin-right: 0px;
+}
+
+.contenedor .oculto .arriba .menu ul{
+	display: block;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.contenedor .oculto .arriba .menu ul li{
+	margin-bottom: 10px;
+}
+
+
+
+}
+

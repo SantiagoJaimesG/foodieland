@@ -1,0 +1,17 @@
+.volver{
+	width: 4%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.volver img{
+	width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+.volver{
+	width: 10%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+}

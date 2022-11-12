@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+}
+
+.contenedor{
+	font-family: Century Gothic;
+}
+
+.contenedor .padre1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.contenedor .padre1 .hijo1 .logo img{
+	width: 100%;
+}
+
+.contenedor .padre1 .hijo1 .title{
+	font-size: 30px;
+}
+
+.contenedor .padre2{
+	padding-top: 7%;
+}
+
+.contenedor .padre2 .title1{
+	margin-left: 41%;
+	margin-right: 41%;
+	font-size: 23px;
+	padding-bottom: 3%;
+}
+
+.contenedor .padre2 .categorias{
+	display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor .padre2 .categorias a{
+	text-decoration: none;
+    color: black;
+}
+
+.contenedor .padre2 .categorias .clientes{
+	background-color: #b5ebff;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contenedor .padre2 .categorias .tortas{
+	background-color: #feffaf;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contenedor .padre2 .categorias .postres{
+	background-color: #bdffe0;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contenedor .padre2 .categorias .galletas{
+	background-color: #efe4d1;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contenedor .padre2 .categorias .dulces{
+	background-color: #efd1d1;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.contenedor .padre2 .categorias .hover{
+    transition: transform .2s; 
+}
+ 
+.contenedor .padre2 .categorias .hover:hover{
+    transform: scale(1.2); 
+}
+
+@media only screen and (max-width: 400px) {
+
+.contenedor .padre2 .title1{
+    margin-left: 17%;
+    margin-right: 17%;
+    padding-bottom: 10%;
+}
+
+.contenedor .padre2 .categorias{
+	display: block;
+}
+
+.contenedor .padre2 .categorias .clientes{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.contenedor .padre2 .categorias .tortas{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.contenedor .padre2 .categorias .postres{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.contenedor .padre2 .categorias .galletas{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.contenedor .padre2 .categorias .dulces{
+	width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+}

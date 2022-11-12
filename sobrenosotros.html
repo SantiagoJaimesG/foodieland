@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sobre Nosotros</title>
+	<link rel="stylesheet" type="text/css" href="css/VistaSobreN2.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="contenedor">
+	<div class="padre1">
+		<div class="hijo1"> 
+			<div class="logo"><img src="img\foodieland.png"></div>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contacto.html">Contactanos</a></li>
+					<li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="hijo2">
+			<div class="face"><a href="https://www.facebook.com/salchipapaaaaaa/"><img src="img/fb.png"></a></div>
+			<div class="twitter"><a href="https://twitter.com/Santiagoooooo17"><img src="img/twt.png"></a></div>
+			<div class="insta"><a href="https://www.instagram.com/jaimes.santiago/"><img src="img/ig.png"></a></div>
+		</div>
+		<div class="menudes"><img src="img/menu.png"></div>
+	</div>
+	<hr>
+	<div class="desplegable">
+		<div class="x"><img src="img/x.png"></div>
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="contacto.html">Contactanos</a></li>
+				<li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+			</ul>
+		</div>
+		<div class="hijo2">
+			<div class="face"><a href="https://www.facebook.com/salchipapaaaaaa/"><img src="img/fb.png"></a></div>
+			<div class="twitter"><a href="https://twitter.com/Santiagoooooo17"><img src="img/twt.png"></a></div>
+			<div class="insta"><a href="https://www.instagram.com/jaimes.santiago/"><img src="img/ig.png"></a></div>
+		</div>
+	</div>
+	<div class="padre2">
+		<div class="parte1">
+			<div class="foto1">
+				<img src="img/pastelera.png">
+			</div>
+			<div class="pasteleria">
+				<div class="title"><h1>Pasteleria Foodieland</h1></div><br>
+				<div class="text"><p>Somos una empresa con 70 años de experiencia en la elaboración y venta de productos artesanales de repostería y pastelería en Colombia. Contamos con 30 puntos de venta y un equipo humano dispuesto siempre a brindar la mejor experiencia.</p></div>
+			</div>
+		</div>
+		<div class="parte2">
+			<div class="texto">
+				<div class="proposito">
+					<div class="title"><h1>Nuestro propósito</h1></div><br>
+					<div class="text"><p>En Pastelería Foodieland nos comprometemos a deleitar con cariño y calidez a nuestros clientes, para esto, día a día nos fortalecemos, adaptamos y trabajamos en equipo.
+					Además, buscamos innovar sin dejar de lado una tradición llena de sabor y liderar en el desarrollo de productos de pastelería con creatividad.</p></div>
+				</div><br><br>
+				<div class="propuesta">
+					<div class="title"><h1>Propuesta de valor</h1></div><br>
+					<div class="text"><p>Usamos técnicas de cocina internacional para desarrollar recetas de elaboración artesanal con ingredientes locales, típicos de Colombia.</p></div>
+				</div>
+			</div>
+			<div class="foto2">
+				<img src="img/sobren.png">
+			</div>
+		</div>
+	</div>
+
+	<div class="padre3">
+		<div class="arriba">
+			<div class="izq">
+				<div class="logo"><img src="img/foodieland.png"></div>
+				<div class="text">La mejor pasteleria de la ciudad</div>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contacto.html">Contactanos</a></li>
+					<li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<div class="derechos"><p>© 2022 Copyright. Powered by Santiago Jaimes</p></div>
+	</div>
+</div>
+<script>
+	$(".contenedor .padre1 .menudes").click(function(){
+		$(".desplegable").fadeIn();
+	});
+
+	$(".contenedor .desplegable .x").click(function(){
+		$(".desplegable").fadeOut();
+	});
+</script>
+</body>
+</html>
